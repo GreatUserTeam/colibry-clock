@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Clock
+Name[ru]=Часы
+Name[uk]=Годинник
+Comment=World clock, alarms, stopwatch and timer
+Comment[ru]=Мировое время, будильники, секундомер и таймер
+Exec=colibry-clock
+Icon=colibry-clock
+Terminal=false
+Categories=Utility;Clock;
+Keywords=clock;alarm;timer;stopwatch;time;
+StartupNotify=true
