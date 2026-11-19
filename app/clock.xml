@@ -1,0 +1,8 @@
+<Window Title="Clock - Colibry OS" Width="360" Height="220" MinWidth="280" MinHeight="180">
+    <Shortcut Keys="Escape" Action="app.quit"/>
+    <VBox Spacing="12" Slot.Padding="16">
+        <Label Name="time" TextSize="44" Slot.HAlign="Center" Slot.VAlign="Center" Slot.Fill="1"/>
+        <Label Name="date" TextSize="14" Slot.HAlign="Center"/>
+        <Button Text="Close" Style="Primary" OnClicked="app.quit" Slot.HAlign="Center"/>
+    </VBox>
+</Window>
